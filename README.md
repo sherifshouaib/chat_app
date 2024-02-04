@@ -1,16 +1,6 @@
 # scholar_chattest
 
-A new Flutter project.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![login_page](https://github.com/sherifshouaib/chat_app/assets/67573195/2a51b410-ba06-47ad-80a7-f4d0c855d478)
+![registration_page](https://github.com/sherifshouaib/chat_app/assets/67573195/914f2dcd-267d-4eea-b089-10793be1f7ba)
+![chat_page](https://github.com/sherifshouaib/chat_app/assets/67573195/4c2c29d9-48fa-4f15-a866-58bd10a4eef6)
