@@ -100,11 +100,11 @@ class _RegisterPageState extends State<RegisterPage> {
                   onTap: () async {
                     if (formKey.currentState!.validate()) {
                       isLoading = true;
-                      setState(() {});
+                      setState(() {});  
                       try {
                         await registerUser();
                         Navigator.pushNamed(context, ChatPage.id,arguments: email);
-                      } on FirebaseAuthException catch (ex) {
+                      } on FirebaseAuthException catch (ex) {  //test
                         if (ex.code == 'weak-password') {
                           showSnackBar(context, 'weak password');
                         } else if (ex.code == 'email-already-in-use') {
@@ -113,7 +113,7 @@ class _RegisterPageState extends State<RegisterPage> {
                       } catch (ex) {
                         showSnackBar(context, 'there was an error');
                       }
-                      isLoading = false;
+                      isLoading = false;   
                       setState(() {});
                     } else {}
                   },
